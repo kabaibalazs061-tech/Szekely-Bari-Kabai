@@ -19,5 +19,6 @@ for i in range(4):
     robot.straight(500)
 
     robot.turn(90)
-    Kabai Balázs
+#Kabai Balázs
 #Székely Máté
+
