@@ -20,3 +20,4 @@ for i in range(4):
 
     robot.turn(90)
     Kabai Balázs
+#Székely Máté
