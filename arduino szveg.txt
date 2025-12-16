@@ -1,0 +1,28 @@
+Arduino
+Az Arduino egy elektronikai fejlesztőplatform, amely segíti a programozás és elektronika alapjainak elsajátítását.
+Nyílt forráskódú, így bárki használhatja és továbbfejlesztheti.
+Segítségével LED-eket, szenzorokat és motorokat lehet vezérelni mikrokontrollerrel.
+Széles körben alkalmazzák oktatásban, hobbiprojektekben és prototípusok készítéséhez.
+
+
+A mikrokontrolleres érzékelés
+A mikrokontrolleres érzékelés során különböző szenzorok mérik a környezeti hatásokat, például a hőmérsékletet, fényt vagy mozgást.
+A mikrokontroller ezeket az adatokat feldolgozza egy előre megírt program alapján.
+A vezérlés során kimeneti eszközöket, például LED-eket, motorokat vagy reléket irányít.
+Így a rendszer automatikusan reagál a környezeti változásokra.
+Ezt a megoldást széles körben alkalmazzák ipari, otthoni és oktatási rendszerekben.
+
+
+Az Arduino Uno Revision 3
+Az Arduino Uno Revision 3 egy népszerű mikrokontrolleres fejlesztőpanel, amely az ATmega328P vezérlőre épül. USB-kapcsolaton keresztül könnyen programozható, és számos digitális és analóg bemenet/kimenet áll rendelkezésre rajta. Egyszerű felépítése miatt ideális tanuláshoz, oktatáshoz és alap elektronikai projektekhez.
+
+
+
+Táblázat
+A táblázat bemutatja, hogyan javultak a közlekedési rendszerek a technológiai fejlődés hatására. Látható, hogy a régebbi, manuális vagy statikus megoldások helyett ma már szenzoros, elektronikus és automatizált rendszerek működnek. Ennek köszönhetően gyorsabbá, biztonságosabbá és környezetbarátabbá vált a közlekedés, miközben a felhasználók számára is kényelmesebb megoldásokat biztosít.
+
+
+MKR és Nano 3 sor
+Az Arduino MKR sorozat kis méretű mikrokontrollereket kínál, amelyek beépített vezeték nélküli képességekkel rendelkeznek, így ideálisak IoT-projektekhez.
+Az MKR panelek hordozható eszközök vezérlésére is alkalmasak.
+Az Arduino Nano egy kompakt és könnyen programozható fejlesztőpanel, amelyet kis méretű és kezdő projektekhez terveztek.
