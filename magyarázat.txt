@@ -1,0 +1,29 @@
+1. dia – Bevezetés
+Ez a dia bemutatja, miről fog szólni az előadás, és miért fontos az Arduino a modern technológiában. Ráhangolja a hallgatóságot arra, hogyan kapcsolódik össze a digitális világ a fizikai környezettel.
+
+2. dia – Mi az Arduino?
+Az Arduino egy nyílt forráskódú hardver- és szoftverplatform, amely egyszerűvé teszi az elektronikai projektek megvalósítását. Kezdők és haladók számára is ideális tanulási és fejlesztési eszköz.
+
+3. dia – Az Arduino fő részei
+Ez a dia bemutatja a mikrokontrollert, a bemeneti és kimeneti pineket, valamint a tápellátást. Ezek az alkatrészek együtt teszik lehetővé az eszköz vezérlését és programozását.
+
+4. dia – Bemenetek (szenzorok)
+A bemenetek segítségével az Arduino információt gyűjt a környezetéből, például fényről, hőmérsékletről vagy mozgásról. Ezek az adatok alapozzák meg a további döntéseket és vezérlést.
+
+5. dia – Kimenetek (aktuátorok)
+A kimenetekkel az Arduino hatást gyakorol a fizikai világra, például LED-eket kapcsol, motorokat mozgat vagy hangot ad ki. Így válik láthatóvá a program működése.
+
+6. dia – Programozás (Arduino IDE)
+Az Arduino IDE egy egyszerű fejlesztőkörnyezet, ahol a vezérlő programja elkészíthető. A C/C++ alapú nyelv lehetőséget ad pontos és hatékony vezérlésre.
+
+7. dia – Digitális és analóg jelek
+Ez a dia bemutatja a digitális (be/ki) és az analóg (folyamatos) jelek közti különbséget. Fontos megérteni, hogy különböző típusú adatokat hogyan kezel az Arduino.
+
+8. dia – Gyakorlati példák
+Itt konkrét Arduino-projektek jelennek meg, például automata világítás vagy okosöntözés. Ezek segítenek megérteni az elmélet gyakorlati alkalmazását.
+
+9. dia – Felhasználási területek
+Az Arduino használható oktatásban, hobbi projektekben és ipari prototípusokban is. Sokoldalúsága miatt rendkívül népszerű eszköz.
+
+10. dia – Összefoglalás
+Az utolsó dia összefoglalja az Arduino szerepét mint kapcsolatot a digitális és fizikai világ között. Kiemeli, hogy az eszköz kreatív gondolkodásra és problémamegoldásra ösztönöz
