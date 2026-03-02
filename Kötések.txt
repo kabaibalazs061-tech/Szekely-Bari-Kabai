@@ -1,0 +1,132 @@
+🏢 1️⃣ KÖZPONT – Fizikai bekötések
+🔹 Routerek
+Router2 ↔ Router3
+
+Port: G0/1 ↔ G0/1
+
+Kábel: Copper Cross-Over (vagy sima, PT auto)
+
+🔹 Router → Switch
+Router2 → Switch0
+
+G0/0 → G0/1
+
+Copper Straight-Through
+
+Router3 → Switch1
+
+G0/0 → G0/1
+
+Copper Straight-Through
+
+🔹 Switch ↔ Switch
+Switch0 ↔ Switch1
+
+G0/2 ↔ G0/2
+
+Copper Cross-Over (később trunk lesz)
+
+🔹 Végpontok
+Switch0
+
+Fa0/2 → Server0
+
+Fa0/3 → PC0
+
+Fa0/4 → PC1
+
+Fa0/5 → Access Point
+
+Switch1
+
+Fa0/2 → Server1
+
+Fa0/3 → PC2
+
+Mindegyik: Straight-Through
+
+🏭 2️⃣ GYÁR1
+🔹 WAN
+
+Router4 Serial0/0/0 → Cloud0 Serial
+
+Serial DCE kábel
+
+🔹 LAN
+
+Router4 G0/0 → Switch2 G0/1
+
+Straight
+
+Switch2:
+
+Fa0/2 → PC3
+
+Fa0/3 → PC4
+
+Fa0/4 → Server2
+
+Mind Straight.
+
+🏢 3️⃣ GYÁR2
+🔹 WAN
+
+Router5 Serial0/0/0 → Cloud1 Serial
+
+Serial DCE
+
+🔹 LAN
+
+Router5 G0/0 → Switch3 G0/1
+
+Straight
+
+Switch3:
+
+Fa0/2 → AccessPoint1
+
+Fa0/3 → Server3
+
+Fa0/4 → Laptop0
+
+🔹 IoT eszközök
+
+Smartphone0
+Smartphone1
+
+⚠ Nem kábelezve
+WiFi-n csatlakoznak majd az AP-hez.
+
+🌐 WAN struktúra
+
+Cloud0 és Cloud1 a WAN/MPLS hálózat szimulációja.
+
+Minden telephely routere:
+
+1 LAN port
+
+1 WAN Serial port
+
+🔎 Összes kábel típus összefoglaló
+Kapcsolat	Kábel
+Router ↔ Switch	Straight
+Switch ↔ Switch	Cross vagy Straight
+Router ↔ Router	Cross
+Router ↔ Cloud (WAN)	Serial DCE
+PC/Server ↔ Switch	Straight
+IoT	WiFi
+🎯 Fizikailag most:
+
+✔ 3 telephely
+✔ Redundáns központ
+✔ WAN kapcsolat
+✔ IoT infrastruktúra
+
+Ha legközelebb folytatod, innen jövünk:
+
+👉 VLAN létrehozás
+👉 Trunk beállítás
+👉 Inter-VLAN routing
+👉 HSRP
+
+Szólj és innen folytatjuk.
