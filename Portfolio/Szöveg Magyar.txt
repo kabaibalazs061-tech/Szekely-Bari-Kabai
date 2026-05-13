@@ -1,0 +1,62 @@
+1. Jázmin
+Dia 1 – Címoldal
+
+„A projektünk egy modern vállalati hálózati infrastruktúra megtervezése és működésének bemutatása. A célunk egy olyan rendszer létrehozása volt, amely biztonságos, gyors és könnyen bővíthető. Emellett fontos szempont volt az is, hogy IoT eszközök kezelésére is alkalmas legyen.”
+
+Dia 2 – A projekt stratégiai céljai
+
+„A hálózat tervezése során három fő szempontot vettünk figyelembe: a stabil működést, a biztonságot és a skálázhatóságot. A rendszernek egyszerre kellett kiszolgálnia több felhasználót, szervereket és okoseszközöket is. Emellett fontos volt, hogy a hálózat később könnyen bővíthető legyen új telephelyekkel vagy eszközökkel.”
+
+Dia 3 – Hierarchikus hálózati modell
+
+„A hálózatot három rétegre osztottuk: Core, Distribution és Access rétegre. Az Access réteg biztosítja a végfelhasználói eszközök csatlakozását. A Distribution réteg kezeli a VLAN-okat és az adatforgalom irányítását, míg a Core réteg a gyors adatátvitelt biztosítja a hálózat különböző részei között. Ez a felépítés stabilabb és átláthatóbb működést eredményez.”
+
+Dia 4 – Alkalmazott hardver ökoszisztéma
+
+„A projekt során Cisco routereket és switcheket használtunk, mivel ezek megbízhatóan kezelik a nagy hálózati forgalmat. A tűzfal védi a belső hálózatot a külső támadásokkal szemben, míg a szerverek különböző szolgáltatásokat futtatnak, például DHCP-t és DNS-t. A hálózati eszközök együtt biztosítják a folyamatos kommunikációt.”
+
+Dia 5 – Multi-site fizikai topológia
+
+„A rendszer több telephelyből áll, amelyeket WAN kapcsolatok kötnek össze. Ez lehetővé teszi, hogy az egyes helyszínek ugyanazon a hálózaton keresztül kommunikáljanak. A redundáns kapcsolatok biztosítják, hogy hiba esetén is működőképes maradjon a rendszer.”
+
+2. Máté
+Dia 6 – Logikai szegmentáció és VLAN
+
+„A hálózatot több VLAN-ra osztottuk fel, például külön VLAN-ba kerültek az alkalmazottak, a szerverek és az IoT eszközök. Ez azért fontos, mert így a különböző hálózati részek el vannak választva egymástól. A VLAN-ok csökkentik a broadcast forgalmat és növelik a biztonságot.”
+
+Dia 7 – Forgalomirányítás és routing
+
+„A routing biztosítja, hogy az adatcsomagok mindig a megfelelő célállomásra jussanak el. Dinamikus routing protokollt használtunk, amely automatikusan kiválasztja a legjobb útvonalat. Ez gyorsabb és megbízhatóbb adatátvitelt eredményez, különösen több telephely esetén.”
+
+Dia 8 – Többszintű biztonsági architektúra
+
+„A hálózat biztonságát több rétegben alakítottuk ki. A tűzfal szűri a külső forgalmat, az ACL szabályok pedig meghatározzák, hogy mely eszközök kommunikálhatnak egymással. Emellett jelszóvédelem és hozzáférés-szabályozás is biztosítja a rendszer védelmét.”
+
+Dia 9 – Hálózati szolgáltatások
+
+„A rendszer több hálózati szolgáltatást futtat. A DHCP automatikusan IP-címeket oszt ki az eszközöknek, a DNS pedig segít a névfeloldásban. Emellett fájlmegosztó és webszolgáltatásokat is konfiguráltunk, amelyek támogatják a vállalati működést.”
+
+Dia 10 – Tesztelés és validáció
+
+„A projektet Cisco Packet Tracer környezetben teszteltük. Ping és kapcsolatvizsgálatok segítségével ellenőriztük a hálózati kommunikációt. A tesztek során megnéztük a VLAN-ok működését, a routing helyességét és azt is, hogy a biztonsági szabályok megfelelően működnek-e.”
+
+3. Balázs
+Dia 11 – IoT okosotthon integráció
+
+„A projekt egyik fontos része az IoT rendszer integrálása volt. Az okoseszközök, például érzékelők és kamerák a hálózathoz csatlakoznak, és adatokat küldenek a központi rendszernek. Ez lehetővé teszi a távoli vezérlést és az automatikus működést.”
+
+Dia 12 – IoT hardware stack
+
+„Az IoT rendszer különböző hardverelemekből áll. Az érzékelők adatokat gyűjtenek, a mikrokontrollerek feldolgozzák azokat, majd a hálózaton keresztül továbbítják a szerverek felé. Ez biztosítja az eszközök közötti folyamatos kommunikációt.”
+
+Dia 13 – IoT adatfolyam
+
+„Az adatfolyam úgy működik, hogy az érzékelők adatokat küldenek a központi szervernek, ahol az információ feldolgozásra kerül. A rendszer ezután valós időben képes reagálni, például riasztást küldeni vagy automatizált műveleteket végrehajtani.”
+
+Dia 14 – Konfigurációs részletek
+
+„A működéshez különböző konfigurációkat készítettünk Cisco eszközökön. Beállítottuk a VLAN-okat, az IP-címzést, valamint a routing protokollokat. Ezek a konfigurációk biztosítják, hogy a hálózat stabilan, gyorsan és biztonságosan működjön.”
+
+Dia 15 – Összegzés
+
+„Összességében a projekt bemutatta egy modern vállalati hálózat teljes működését. A rendszer képes kezelni több telephelyet, szervereket és IoT eszközöket is, miközben biztonságos és stabil marad. A projekt során megszereztük a hálózattervezéshez és konfiguráláshoz szükséges gyakorlati tapasztalatokat is. Köszönjük a figyelmet!”

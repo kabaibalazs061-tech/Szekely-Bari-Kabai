@@ -1,0 +1,62 @@
+Jázmin
+Slide 1 – Title Slide
+
+“Our project is about designing and presenting a modern enterprise network infrastructure. The main goal was to create a secure, fast, and scalable system. Another important aspect was supporting IoT devices within the network.”
+
+Slide 2 – Strategic Goals of the Project
+
+“During the design process, we focused on three main objectives: stability, security, and scalability. The network had to support multiple users, servers, and smart devices at the same time. We also designed the system in a way that allows future expansion with new devices or additional sites.”
+
+Slide 3 – Hierarchical Network Model
+
+“We divided the network into three layers: Core, Distribution, and Access layer. The Access layer connects end-user devices to the network. The Distribution layer manages VLANs and traffic control, while the Core layer provides fast communication between all parts of the network. This structure improves performance and simplifies management.”
+
+Slide 4 – Hardware Ecosystem
+
+“In this project, we used Cisco routers and switches because they are reliable and widely used in enterprise environments. The firewall protects the internal network from external threats, while the servers provide services such as DHCP and DNS. Together, these devices ensure continuous and stable communication.”
+
+Slide 5 – Multi-site Physical Topology
+
+“The system consists of multiple sites connected through WAN links. This allows communication between different company locations as if they were part of the same network. Redundant connections were also implemented to maintain operation even if one connection fails.”
+
+Máté
+Slide 6 – Logical Segmentation and VLANs
+
+“We separated the network into multiple VLANs, for example for employees, servers, and IoT devices. This separation improves security and reduces unnecessary network traffic. VLANs also help organize the network more efficiently.”
+
+Slide 7 – Traffic Management and Routing
+
+“Routing ensures that data packets always reach the correct destination. We implemented dynamic routing protocols that automatically select the best available path. This improves communication speed and reliability, especially between multiple sites.”
+
+Slide 8 – Multi-layer Security Architecture
+
+“The network security was designed using multiple protection layers. The firewall filters incoming and outgoing traffic, while ACL rules control which devices can communicate with each other. Password protection and access control were also configured to improve security.”
+
+Slide 9 – Network Services
+
+“The infrastructure includes several important network services. DHCP automatically assigns IP addresses to devices, while DNS handles name resolution. We also configured file-sharing and web services to support business operations.”
+
+Slide 10 – Testing and Validation
+
+“The project was tested in Cisco Packet Tracer. We used ping tests and connectivity checks to verify communication between devices. We also tested VLAN functionality, routing configuration, and the effectiveness of the security settings.”
+
+Balázs
+Slide 11 – IoT Smart Home Integration
+
+“One of the key parts of the project was integrating IoT devices into the network. Smart devices such as sensors and cameras connect to the system and send information to the central server. This allows remote monitoring and automated control.”
+
+Slide 12 – IoT Hardware Stack
+
+“The IoT system consists of sensors, microcontrollers, and central processing units. Sensors collect environmental data, microcontrollers process it, and the information is transmitted through the network to the servers. This enables continuous communication between devices.”
+
+Slide 13 – IoT Data Flow
+
+“The data flow begins when sensors collect information and send it to the central server. The server processes the data in real time and can trigger automated actions, such as alarms or smart responses. This ensures efficient monitoring and fast reactions.”
+
+Slide 14 – Configuration Details
+
+“To make the network operational, we configured VLANs, IP addressing, and routing protocols on Cisco devices. These configurations ensure secure, stable, and efficient communication across the infrastructure.”
+
+Slide 15 – Conclusion
+
+“In conclusion, this project demonstrated the operation of a modern enterprise network infrastructure. The system is capable of supporting multiple locations, servers, and IoT devices while maintaining security and stability. Through this project, we also gained practical experience in network design and configuration. Thank you for your attention!”
